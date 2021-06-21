@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	background:url(pic.png);
+	background-size: cover ;
+	font-family: monospace;
+	font-size: 20px;
+}
+.bg{
+	background:url(pic.png);
+	background-size: cover ;
+	
+}
+
+.login{
+	margin-top: 20%;
+	color: yellow;
+	font-size: 52px;
+	background-color: black;
+}
+.labels{
+	color: yellow;
+	margin: 3px;
+	background-blend-mode:hard-light;
+	background-color: black;
+}
+.inputs{
+	background: whitesmoke;
+}
+.submit{
+	background: skyblue;
+	color: red;
+}

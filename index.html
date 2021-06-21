@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+    function validate()
+    {
+    var username = document.getElementById("user");
+    var password = document.getElementById("pass");
+        
+        if(username.value =="" ||password.value =="")
+            {
+                alert("No Blank Values Allowed");
+                return false;   
+            }
+        else
+        {
+         true;    
+        }
+    }
+       
+    </script>
+</head>
+<body>
+	<div class="bg">
+	<center class="center">
+		<h1 class="login">Login</h1>
+		<form class="form"  onsubmit="return validate()" action="succes.html">
+			
+			<input class="inputs" type="text" id="user" name="user" placeholder="Username">
+			<br><br>
+			
+			<input class="inputs" type="password" id="pass" name="pass" placeholder="Password" >
+			<br><br>
+			<input class="submit"type="submit" name="Login">
+			<br>
+			<br>
+			<label class="labels">You can register </label>
+			<a href="Register.html"style="color: red;">here!</a>
+		</form>
+	</center>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+</body>
+</html>
